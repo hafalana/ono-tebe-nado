@@ -1,1 +1,41 @@
-/* место для вашего кода */
+.body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    margin-top: 92px;
+    justify-content: space-between;
+}
+
+.nav-link-active {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.li {
+    
+}
+
+.nav {
+    display: flex;
+   
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: white;
+}
+
+.img {
+    width: 148px;
+    height: 105px;
+}
+
