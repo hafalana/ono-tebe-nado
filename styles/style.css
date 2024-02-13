@@ -1,11 +1,17 @@
+
 .body {
+    display: flex;
     background-color: white;
+
 }
 
 .header {
     display: flex;
-    margin-top: 92px;
+    margin-top: 93px;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link-active {
@@ -17,13 +23,12 @@
     text-underline-offset: 4px;
 }
 
-.li {
-    
-}
-
 .nav {
     display: flex;
-   
+    flex-direction: row;
+    line-height: 5px;
+    margin-left: -10px;
+    margin-right: 45px;
 }
 
 .circle {
@@ -32,6 +37,8 @@
     border: 1px solid black;
     border-radius: 50%;
     color: white;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .img {
@@ -39,3 +46,10 @@
     height: 105px;
 }
 
+.address {
+    display: block;
+    line-height: 19px;
+    font-style: normal;
+    text-underline-offset: 4px;
+    margin-left: 193px;
+}
