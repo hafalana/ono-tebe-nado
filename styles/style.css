@@ -46,7 +46,6 @@
 }
 
 .circle {
-
     list-style: circle;
 }
 
@@ -204,6 +203,7 @@
     text-transform: uppercase;
     text-decoration: underline;
     text-underline-offset: 3px;
+    text-decoration-color:rgb(156, 156, 156);
 }
 
 .lots-section__card-text {
