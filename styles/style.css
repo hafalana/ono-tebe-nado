@@ -36,11 +36,13 @@
     padding: 0 26px;
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 
 .nav__navigation-list {
     display: flex;
     flex-direction: row;
+    line-height: 1.5em;
     gap: 32px;
     padding: 0 36px 0 26px;
 }
@@ -58,9 +60,7 @@
     text-decoration-style: solid;
     text-underline-offset: 4px;
 }
-.nav__navigation-list {
-    line-height: 1.5em;
-}
+
 
 .nav__logo {
     width: 148px;
@@ -156,7 +156,7 @@
 
 /* lots */
 .lots-section {
-    padding: 0 24px 146px;
+    padding: 53px 27px 150px;
 }
 
 .lots-section__title {
@@ -175,9 +175,9 @@
 .lots-section__card {
     position: relative;
     display: flex;
+    flex-direction: column;
     flex-basis: 33.3%;
     flex-basis: 1;
-    flex-direction: column;
     justify-content: space-between;
     padding: 51px 40px 48px;
 }
@@ -230,7 +230,7 @@
 .auction-section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 180px;
+    margin-bottom: 160px;
     padding-right: 24px;
 }
 
@@ -238,7 +238,7 @@
     display: flex;
     align-items: center;
     gap: 72px;
-    margin: 35px auto 100px 71px;
+    margin: 35px auto 5px 71px;
 }
 
 
@@ -278,7 +278,7 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%;
-    font-weight: 400;   
+    font-weight: 400;
 }
 
 
@@ -294,6 +294,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 65px;
 }
 
 .footer__social-container {
