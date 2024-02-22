@@ -115,12 +115,12 @@
     justify-content: flex-start;
 }
 
-.main-section__texts-line-second  {
+.main-section__texts-line-second {
     justify-content: center;
     transform: translate(-0.36em, 0);
 }
 
-.main-section__texts-line-third  {
+.main-section__texts-line-third {
     justify-content: flex-end;
     transform: translate(0.3em, 0);
 }
@@ -191,7 +191,7 @@
     filter: brightness(40%);
     height: 563px;
     width: 334px;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .lots-section__card-label {
